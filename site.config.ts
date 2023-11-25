@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '무료 중국어 온라인 강좌',
+  name: '한관화 | 무료 중국어 온라인 강좌',
   domain: 'handarin-courses.vercel.app',
   author: '陶老师',
 
