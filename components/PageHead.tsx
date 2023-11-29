@@ -22,6 +22,18 @@ export const PageHead: React.FC<
 
   return (
     <Head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT711NGQJ1"></script>
+
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LT711NGQJ1');
+`
+      }}/>
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
