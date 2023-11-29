@@ -59,7 +59,7 @@ export default siteConfig({
     },
     {
       title: '연락처',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: '6dd0cd14de1b4f30b62e6c2a50cca613'
     }
   ]
 })
