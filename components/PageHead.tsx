@@ -107,6 +107,8 @@ gtag('config', 'G-LT711NGQJ1');
 
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
+
+      <meta name="google-adsense-account" content="ca-pub-3337821431077136" />
       <title>{title}</title>
     </Head>
   )
