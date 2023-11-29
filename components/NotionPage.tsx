@@ -255,6 +255,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
       {isDarkMode && <BodyClassName className='dark-mode' />}
+      {/* <!-- Google Tag Manager (noscript) --> */}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWK2S6J6"
+      height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe></noscript>
+      {/* <!-- End Google Tag Manager (noscript) --> */}
 
       <NotionRenderer
         bodyClassName={cs(
