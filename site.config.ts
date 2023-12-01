@@ -43,8 +43,8 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/무료-강좌': '0ae92e7bfd504543bc5d30309f6ceb35',
-    '/연락처': '6a29ebcb935a4f0689fe661ab5f3b8d1'
+    '/free-courses-무료-강좌': '0ae92e7bfd504543bc5d30309f6ceb35',
+    '/contact-연락처': '6a29ebcb935a4f0689fe661ab5f3b8d1'
   },
   // pageUrlOverrides: null,
 

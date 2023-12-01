@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 
 import * as config from '@/lib/config'
 import * as types from '@/lib/types'
@@ -23,7 +24,7 @@ export const PageHead: React.FC<
   return (
     <Head>
       {/* <!-- Google Tag Manager --> */}
-      <script
+      <Script
         dangerouslySetInnerHTML={{
           __html: `
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -36,8 +37,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       />
       {/* <!-- End Google Tag Manager --> */}
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT711NGQJ1"></script>
-      <script
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LT711NGQJ1"></Script>
+      <Script
         dangerouslySetInnerHTML={{
           __html: `
 window.dataLayer = window.dataLayer || [];
