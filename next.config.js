@@ -25,7 +25,12 @@ module.exports = withBundleAnalyzer({
         source: '/18',
         destination: '/learn-18-job-직업묻기-做，工作，医生，警察，商人，教师，公司',
         permanent: false,
-      }
+      },
+      {
+        source: '/about-us',
+        destination: '/free-courses-무료-강좌',
+        permanent: false,
+      },
     ]
   },
 })
