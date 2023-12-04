@@ -15,6 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description: '무료 중국어 온라인 강좌 - 한글로 쉽게 배우는 중국어',
+  language: 'ko',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
