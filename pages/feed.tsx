@@ -48,7 +48,10 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
     const isBlogPost =
       block.type === 'page' &&
       block.parent_table === 'collection' &&
-      parentPage?.id === idToUuid(config.rootNotionPageId)
+      (
+        parentPage?.id === idToUuid(config.rootNotionPageId) ||
+        parentPage?.id === idToUuid('0ae92e7bfd504543bc5d30309f6ceb35')
+      )
     if (!isBlogPost) {
       continue
     }
