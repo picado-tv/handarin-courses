@@ -47,9 +47,9 @@ async function getAllPagesImpl(
         throw new Error(`Error loading page "${pageId}"`)
       }
 
-      const canonicalPageId = getCanonicalPageId(pageId, recordMap, {
+      const canonicalPageId = decodeURIComponent(getCanonicalPageId(pageId, recordMap, {
         uuid
-      })
+      }))
 
       if (map[canonicalPageId]) {
         // you can have multiple pages in different collections that have the same id

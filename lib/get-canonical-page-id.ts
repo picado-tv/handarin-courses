@@ -18,10 +18,10 @@ export function getCanonicalPageId(
 
   const override = inversePageUrlOverrides[cleanPageId]
   if (override) {
-    return override
+    return encodeURIComponent(override)
   } else {
-    return getCanonicalPageIdImpl(pageId, recordMap, {
+    return encodeURIComponent(getCanonicalPageIdImpl(pageId, recordMap, {
       uuid
-    })
+    }))
   }
 }
